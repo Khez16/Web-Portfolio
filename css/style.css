@@ -1,0 +1,47 @@
+* {
+    /*Make sure that there is no gap around the border of webpage*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*set container to entire page*/
+.container{
+    display: flex;
+    flex-direction: column; /*set direction of page flow*/
+    align-items: center;
+    height: 100%;   /*may need to remove this so you can scroll down*/
+    width: 100%;
+    background-color: black;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    height: 50%;    
+    width: 100%;
+    background-color: white;
+    justify-content: end;
+}
+
+.logo{
+    padding-left: 30px;
+    width: 20%;
+    padding-right: 200px;
+}
+
+.weblinks{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 100%;
+}
+.weblinks li{
+    margin: 0 10px;
+}
+
+.icons{
+    margin-right: 20px;
+    padding-right: 30px;
+    padding-left: 150px;
+}
